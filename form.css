@@ -1,0 +1,76 @@
+/* Form container styling */
+.natural-grocers-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f8f4; /* Soft beige tone */
+    border: 2px solid #a8c686; /* Light green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a; /* Dark gray text */
+}
+
+/* Form group spacing */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.natural-grocers-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6a8a59; /* Earthy green */
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+.natural-grocers-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #a8c686; /* Light green border */
+    border-radius: 5px;
+    background-color: #ffffff; /* White input background */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input focus effect */
+.natural-grocers-form input:focus {
+    border-color: #6a8a59; /* Darker green on focus */
+    box-shadow: 0 0 5px rgba(106, 138, 89, 0.5); /* Green glow */
+    outline: none;
+}
+
+/* Submit button styling */
+.natural-grocers-form button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; /* White text */
+    background-color: #6a8a59; /* Earthy green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.natural-grocers-form button:hover {
+    background-color: #567543; /* Darker green */
+}
+
+/* Form spacing on small screens */
+@media (max-width: 500px) {
+    .natural-grocers-form {
+        padding: 15px;
+    }
+
+    .natural-grocers-form button {
+        font-size: 14px;
+    }
+}
